@@ -1124,7 +1124,7 @@ li .goru img {
     transition: 0.4s;
   }
   .header-logo img {
-    width: 230%;
+    width: 100%;
   }
   .left-item h2 {
     font-size: 45px;
