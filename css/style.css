@@ -151,6 +151,7 @@ a:is(:link, :active, :visited).active {
 .right-header {
   padding-top: 120px;
   padding-bottom: 110px;
+  background-repeat: no-repeat;
   background-image: url("../images/main_page_slideshow_background.gif");
 }
 
@@ -1112,7 +1113,7 @@ li .goru img {
   .commission {
     padding: 7px 19px;
     font-size: 13px;
-    top: 5.9%;
+    top: 4.65%;
   }
   .header-logo {
     top: 2.8%;
