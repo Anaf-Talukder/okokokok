@@ -3,13 +3,10 @@
   nav ul {
     top: 2.6%;
   }
-  .header-logo img {
-    width: 230%;
-  }
   .commission {
     padding: 7px 19px;
     font-size: 13px;
-    top: 5.9%;
+    top: 7%;
   }
   .contact {
     padding-top: 115px;
@@ -25,6 +22,17 @@
     padding-bottom: 20px;
     text-shadow: 3px 2px 2px #379683;
     font-family: 'Press Start 2P', cursive;
+  }
+  .header-logo {
+    top: 2.8%;
+    left: 5%;
+    text-shadow: 0px 3px 4px #379683;
+    position: fixed;
+    z-index: 10;
+    transition: 0.4s;
+  }
+  .header-logo img {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 2300px) {
@@ -71,10 +79,6 @@
 }
 
 @media only screen and (max-width: 450px) {
-  
-  .header-logo img {
-    width: 160%;
-  }
   .commission {
     position: absolute;
     padding: 4px 8px;
@@ -84,12 +88,6 @@
   .header-logo h1 {
     font-size: 50px;
 }
-.header-logo {
-  position: absolute;
-}
-  .commission {
-    position: absolute;
-  }
   .shape-1 {
     display: none;
   }
@@ -136,6 +134,13 @@
     padding-top: 60px;
     font-size: 40px;
     line-height: 3.5rem;
+  }
+  .header-logo {
+    position: absolute;
+    top: 3.1%;
+  }
+  .header-logo img {
+    width: 60%;
   }
 }
 @media only screen and (max-width: 430px) {
