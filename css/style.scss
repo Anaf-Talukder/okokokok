@@ -692,33 +692,36 @@
   position: relative;
   width: 450px;
   max-width: 90%;
-  background-image: linear-gradient(to bottom,
-  #3fe1b5, #5ce7c0, #73edcb, #89f3d6, #9df9e0);
+  background-color: var(--color-secondary);
   padding: 20px 50px 0px;
 }
 .modal__content h1{
-  margin-bottom: 6px;
+  margin-bottom: 7px;
   text-align: center;
-  color: var(--color-primary);
-  font-weight: 800;
+  color: var(--color-white);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 27px;
 }
 .modal__content p {
   margin-bottom: 7px;
   text-align: center;
-  color: var(--color-primary);
+  color: var(--color-white);
+  
+  font-family: 'Michroma', sans-serif;
 }
 .modal__footer p{
-  color: var(--color-primary);
+  color: var(--color-white);
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   margin-left: 7px;
+  font-family: 'Michroma', sans-serif;
 }
 .modal__close i{
   position: absolute;
   top: 12px;
   right: 15px;
-  color: var(--color-primary);
+  color: var(--color-white);
   text-decoration: none;
   font-size: 20px;
 }
