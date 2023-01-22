@@ -104,12 +104,7 @@ a:is(:link, :active, :visited).active {
   z-index: 10;
   transition: 0.4s;
 }
-.header-logo h1 {
-  font-size: 44px;
-}
-.header-logo:hover {
-  text-shadow: -3px -3px 4px #379683;
-}
+
 .commission {
   padding: 4px 15px;
   position: fixed;
@@ -126,7 +121,7 @@ a:is(:link, :active, :visited).active {
   background-color: #157347;
 }
 .header-logo img {
-  width: 150%;
+  width: 70%;
 }
 
 /*Projects*/

@@ -47,7 +47,7 @@ a:is(:link, :active, :visited).active {
   margin: 0.3rem 0.8rem;
 }
 .header-logo img {
-  width: 150%;
+  width: 70%;
 }
 
 /*Header*/
@@ -107,9 +107,6 @@ a:is(:link, :active, :visited).active {
   position: fixed;
   z-index: 10;
   transition: 0.4s;
-}
-.header-logo:hover {
-  text-shadow: -3px -3px 4px #379683;
 }
 .commission {
   padding: 4px 15px;
