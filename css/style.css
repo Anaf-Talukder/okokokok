@@ -107,7 +107,7 @@ a:is(:link, :active, :visited).active {
 }
 
 .header-logo img {
-  width: 150%;
+  width: 70%;
 }
 
 .commission {
@@ -150,7 +150,7 @@ a:is(:link, :active, :visited).active {
 
 .right-header {
   padding-top: 120px;
-  padding-bottom: 110px;
+  padding-bottom: 80px;
   background-image: url("../images/main_page_slideshow_background.gif");
 }
 
@@ -253,8 +253,14 @@ a:is(:link, :active, :visited).active {
 
 li .goru img {
   position: absolute;
-  left: 15px;
+  left: -35px;
   top: -23px;
+}
+
+li .sagol img {
+  position: absolute;
+  left: -25px;
+  top: -14px;
 }
 
 #slider-wrap {
@@ -781,30 +787,6 @@ li .goru img {
   font-size: 20px;
 }
 
-.boxes {
-  position: relative;
-  background-color: var(--color-secondary);
-}
-
-.boxes h1 {
-  font-size: 40px;
-  text-align: center;
-}
-
-.boxes .image-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  padding: 10px;
-}
-
-.boxes .image-container .image {
-  height: 250px;
-  width: 400px;
-  border: 5px solid;
-}
-
 .cards {
   background-color: var(--color-secondary);
   padding: 50px;
@@ -1087,7 +1069,7 @@ li .goru img {
   }
   .left-header {
     background-color: var(--color-primary);
-    padding-top: 180px;
+    padding-top: 220px;
   }
   .thing {
     background-color: var(--color-secondary);
@@ -1115,7 +1097,7 @@ li .goru img {
   .commission {
     padding: 7px 19px;
     font-size: 13px;
-    top: 5.9%;
+    top: 7%;
   }
   .header-logo {
     top: 2.8%;
@@ -1126,7 +1108,7 @@ li .goru img {
     transition: 0.4s;
   }
   .header-logo img {
-    width: 230%;
+    width: 100%;
   }
   .left-item h2 {
     font-size: 45px;
@@ -1162,7 +1144,7 @@ li .goru img {
     height: 650px;
   }
   .right-header {
-    padding-top: 180px;
+    padding-top: 200px;
     padding-bottom: 100px;
   }
 }
@@ -1319,9 +1301,6 @@ li .goru img {
   }
   .flex-3 img {
     width: 100px;
-  }
-  .header-logo img {
-    width: 160%;
   }
   .commission {
     position: absolute;
