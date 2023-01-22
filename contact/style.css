@@ -101,16 +101,12 @@ a:is(:link, :active, :visited).active {
 .header-logo {
   top: 3.1%;
   left: 5%;
-  text-shadow: 0px 3px 4px #379683;
   position: fixed;
   z-index: 10;
   transition: 0.4s;
 }
 .header-logo h1 {
   font-size: 44px;
-}
-.header-logo:hover {
-  text-shadow: -3px -3px 4px #379683;
 }
 .commission {
   padding: 4px 15px;
@@ -145,7 +141,6 @@ a:is(:link, :active, :visited).active {
   padding-top: 40px;
   font-size: 37px;
   padding-bottom: 20px;
-  text-shadow: 3px 2px 2px #379683;
   font-family: 'Press Start 2P', cursive;
 }
 form {
@@ -228,7 +223,6 @@ button:hover {
 .left-item h2{
   font-size: 26px;
   margin-bottom: 5px;
-  text-shadow: 0px 3px 3px #19181d;
   font-family: 'Press Start 2P', cursive;
 }
 .left-item h3, h4{

@@ -42,8 +42,6 @@ a {
 }
 
 a:is(:link, :active, :visited).active {
-  color: var(--color-white);
-  background-color: var(--color-secondary);
   margin: 0.3rem 0.8rem;
 }
 
@@ -65,18 +63,17 @@ nav ul {
 
 nav ul li a {
   margin: 0 10px;
-  padding: 1rem;
   cursor: pointer;
-  background-color: var(--color-grey-4);
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem 0.8rem;
-  box-shadow: var(--box-shadow-1);
-  transition: 0.4s ease-in-out;
+}
+
+nav ul li a img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a:is(:link, :active, :visited).active {
@@ -121,6 +118,7 @@ a:is(:link, :active, :visited).active {
   transition: 0.4s;
   z-index: 10;
   font-family: "Michroma", sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .commission:hover {
@@ -424,7 +422,6 @@ li .sagol img {
 .sec-mid h1 {
   font-size: 25px;
   margin-top: 70px;
-  text-shadow: 3px 3px 3px #1a2034;
   color: var(--color-white);
   font-family: "Press Start 2P", cursive;
 }
@@ -432,7 +429,6 @@ li .sagol img {
 .sec-mid h3 {
   margin-left: 50%;
   transform: translateX(-35%);
-  text-shadow: 2px 2px 2px #1a2034;
   margin-top: 12px;
   font-size: 20px;
   color: var(--color-white);
@@ -584,7 +580,6 @@ li .sagol img {
   padding-top: 25px;
   font-size: 40px;
   padding-bottom: 25px;
-  text-shadow: 5px 5px 5px #1a2034;
   font-family: "Press Start 2P", cursive;
 }
 
@@ -614,7 +609,6 @@ li .sagol img {
 .left-item h2 {
   font-size: 26px;
   margin-bottom: 5px;
-  text-shadow: 0px 3px 3px #379683;
   font-family: "Press Start 2P", cursive;
 }
 
@@ -698,14 +692,12 @@ li .sagol img {
   font-family: "Press Start 2P", cursive;
   font-size: 29px;
   line-height: 2.8rem;
-  text-shadow: 3px 3px 3px #1a2034;
 }
 
 .flex-2 h2 {
   font-family: "Press Start 2P", cursive;
   font-size: 21px;
   padding-top: 7px;
-  text-shadow: 2px 2px 2px #1a2034;
 }
 
 .flex-2 a {
@@ -878,7 +870,6 @@ li .sagol img {
   }
   .sec-mid h1 {
     font-size: 35px;
-    text-shadow: 3px 3px 3px #1a2034;
   }
   .sec-mid h3 {
     font-size: 20px;
@@ -894,13 +885,11 @@ li .sagol img {
   }
   .hero img .sec-mid h1 {
     font-size: 33px;
-    text-shadow: 3px 3px 3px #1a2034;
   }
 }
 @media only screen and (max-width: 992px) {
   .sec-mid h1 {
     font-size: 30px;
-    text-shadow: 3px 3px 3px #1a2034;
   }
   .sec-mid h3 {
     font-size: 18px;
@@ -1000,11 +989,9 @@ li .sagol img {
   }
   .sec-mid h1 {
     font-size: 32px;
-    text-shadow: 4px 4px 4px #1a2034;
   }
   .sec-mid h3 {
     font-size: 24px;
-    text-shadow: 3px 3px 3px #1a2034;
   }
   .sec-mid a {
     margin-left: 50%;
@@ -1016,10 +1003,8 @@ li .sagol img {
   .sec-mid h1 {
     font-size: 40px;
     margin-top: 70px;
-    text-shadow: 3px 3px 3px #1a2034;
   }
   .sec-mid h3 {
-    text-shadow: 2px 2px 2px #1a2034;
     margin-top: 12px;
     font-size: 30px;
   }
@@ -1058,13 +1043,11 @@ li .sagol img {
   .flex-2 h1 {
     font-size: 37px;
     line-height: 2.8rem;
-    text-shadow: 3px 3px 3px #1a2034;
   }
   .flex-2 h2 {
     font-family: "Press Start 2P", cursive;
     font-size: 29px;
     padding-top: 15px;
-    text-shadow: 3px 3px 3px #1a2034;
   }
   .flex-2 a {
     font-family: "Michroma", sans-serif;
@@ -1107,7 +1090,6 @@ li .sagol img {
   .header-logo {
     top: 2.8%;
     left: 5%;
-    text-shadow: 0px 3px 4px #379683;
     position: fixed;
     z-index: 10;
     transition: 0.4s;
@@ -1118,7 +1100,6 @@ li .sagol img {
   .left-item h2 {
     font-size: 45px;
     margin-bottom: 5px;
-    text-shadow: 0px 3px 3px #379683;
   }
   .left-item h3, h4 {
     font-size: 20px;
@@ -1138,10 +1119,8 @@ li .sagol img {
   }
   .sec-mid h1 {
     font-size: 40px;
-    text-shadow: 3px 3px 3px #1a2034;
   }
   .sec-mid h3 {
-    text-shadow: 2px 2px 2px #1a2034;
     font-size: 24px;
     margin-top: 3px;
   }
@@ -1156,10 +1135,8 @@ li .sagol img {
 @media only screen and (min-width: 2100px) {
   .sec-mid h1 {
     font-size: 44px;
-    text-shadow: 4px 6px 6px #1a2034;
   }
   .sec-mid h3 {
-    text-shadow: 3px 4px 4px #1a2034;
     font-size: 32px;
     margin-top: 20px;
   }
@@ -1179,11 +1156,9 @@ li .sagol img {
   }
   .sec-mid h1 {
     font-size: 50px;
-    text-shadow: 5px 8px 8px #1a2034;
     margin-top: 50px;
   }
   .sec-mid h3 {
-    text-shadow: 4px 6px 6px #1a2034;
     font-size: 38px;
     margin-top: 20px;
   }
@@ -1204,7 +1179,6 @@ li .sagol img {
     padding-top: 40px;
     font-size: 65px;
     padding-bottom: 40px;
-    text-shadow: 4px 4px 4px #1a2034;
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -1267,7 +1241,6 @@ li .sagol img {
   .header-logo {
     top: 1.8%;
     left: 5%;
-    text-shadow: 0px 3px 4px #379683;
     position: absolute;
     z-index: 10;
     transition: 0.4s;
@@ -1284,14 +1257,12 @@ li .sagol img {
   .flex-2 h1 {
     font-family: "Press Start 2P", cursive;
     font-size: 21px;
-    text-shadow: 3px 3px 3px #1a2034;
     line-height: 1.7rem;
   }
   .flex-2 h2 {
     font-family: "Press Start 2P", cursive;
     font-size: 16px;
     padding-top: 5px;
-    text-shadow: 3px 3px 3px #1a2034;
     line-height: 1.4rem;
   }
   .flex-2 a {
@@ -1356,7 +1327,6 @@ li .sagol img {
     position: absolute;
     top: 46%;
     left: -6%;
-    text-shadow: 2px 1px 2px #1a2034;
   }
   .sec-mid a {
     margin-top: 15px;
@@ -1458,14 +1428,12 @@ li .sagol img {
   .flex-2 h1 {
     font-family: "Press Start 2P", cursive;
     font-size: 19px;
-    text-shadow: 3px 3px 3px #1a2034;
     line-height: 1.7rem;
   }
   .flex-2 h2 {
     font-family: "Press Start 2P", cursive;
     font-size: 14px;
     padding-top: 5px;
-    text-shadow: 3px 3px 3px #1a2034;
     line-height: 1.4rem;
   }
 }
@@ -1489,14 +1457,12 @@ li .sagol img {
   .flex-2 h1 {
     font-family: "Press Start 2P", cursive;
     font-size: 17px;
-    text-shadow: 3px 3px 3px #1a2034;
     line-height: 1.7rem;
   }
   .flex-2 h2 {
     font-family: "Press Start 2P", cursive;
     font-size: 13px;
     padding-top: 3px;
-    text-shadow: 3px 3px 3px #1a2034;
     line-height: 1.4rem;
   }
   .footer-right ul {
@@ -1516,7 +1482,6 @@ li .sagol img {
     position: absolute;
     top: 46%;
     left: -6%;
-    text-shadow: 2px 1px 2px #1a2034;
   }
   .sec-mid a {
     margin-top: 15px;
@@ -1570,7 +1535,6 @@ li .sagol img {
     position: absolute;
     top: 46%;
     left: -7.5%;
-    text-shadow: 2px 1px 2px #1a2034;
   }
   .hero img {
     margin-right: -5px;
@@ -1642,7 +1606,6 @@ li .sagol img {
     position: absolute;
     top: 61%;
     left: -7%;
-    text-shadow: 2px 1px 2px #1a2034;
   }
   .sec-mid a {
     margin-top: 10px;
@@ -1735,7 +1698,6 @@ li .sagol img {
     position: absolute;
     top: 61%;
     left: -6%;
-    text-shadow: 2px 1px 2px #1a2034;
   }
 }
 @media only screen and (max-width: 330px) {

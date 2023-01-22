@@ -259,7 +259,6 @@
     top: 145px;
     left: 50%;
     transform: translateX(-50%);
-    text-shadow: 4px 4px 4px #379683;
   }
   figcaption {
     font-size: 30px;
@@ -280,7 +279,6 @@
   .left-item h2{
     font-size: 45px;
     margin-bottom: 5px;
-    text-shadow: 0px 3px 3px #379683;
   }
   .left-item h3, h4{
     font-size: 20px;
@@ -291,7 +289,6 @@
   .header-logo {
     top: 2.8%;
     left: 5%;
-    text-shadow: 0px 3px 4px #379683;
     position: fixed;
     z-index: 10;
     transition: 0.4s;
@@ -300,7 +297,6 @@
 @media only screen and (min-width: 2300px) {
   .gallery h1 {
     font-size: 65px;
-    text-shadow: 5px 5px 5px #1a2034;
     padding-bottom: 30px;
     padding-top: 35px;
 
