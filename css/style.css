@@ -254,7 +254,7 @@ a:is(:link, :active, :visited).active {
 li .goru img {
   position: absolute;
   left: -25px;
-  top: -23px;
+  top: -10px;
 }
 
 li .sagol img {
