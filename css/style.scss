@@ -136,7 +136,7 @@
 }
 .left-header .hero {
   margin-left: 25%;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   
 }
 .header-btn {
@@ -222,7 +222,7 @@
   #wrapper{
     width:780px;
     margin: 0px auto 0px;
-    height:560px;
+    height:545px;
     position:relative;
     color:#fff;
     text-shadow:rgba(0,0,0,0.1) 2px 2px 0px;	
@@ -239,7 +239,7 @@
   }
   #slider-wrap{
     width:780px;
-    height:560px;
+    height:545px;
     position:relative; 
     overflow:hidden;
   }
@@ -256,7 +256,7 @@
     float:left;
     position:relative;
     width:780px;
-    height:560px;	
+    height:545px;	
   }
   
   #slider-wrap ul#slider li > div{
@@ -280,6 +280,13 @@
     display:block;
     width:100%;
     font-size:90px;	
+  }
+
+  .li-text h5 {
+    margin-top: 490px;
+    margin-left: -20px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 17px;
   }
   
   /*btns*/

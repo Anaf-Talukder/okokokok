@@ -140,7 +140,7 @@ a:is(:link, :active, :visited).active {
 
 .left-header .hero {
   margin-left: 25%;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .header-btn {
@@ -245,13 +245,13 @@ a:is(:link, :active, :visited).active {
 #wrapper {
   width: 780px;
   margin: 0px auto 0px;
-  height: 560px;
+  height: 545px;
   position: relative;
   color: #fff;
   text-shadow: rgba(0, 0, 0, 0.1) 2px 2px 0px;
 }
 
-li .slider-part img {
+li .goru img {
   position: absolute;
   left: -25px;
   top: -10px;
@@ -265,7 +265,7 @@ li .sagol img {
 
 #slider-wrap {
   width: 780px;
-  height: 560px;
+  height: 545px;
   position: relative;
   overflow: hidden;
 }
@@ -281,7 +281,7 @@ li .sagol img {
   float: left;
   position: relative;
   width: 780px;
-  height: 560px;
+  height: 545px;
 }
 
 #slider-wrap ul#slider li > div {
@@ -305,6 +305,13 @@ li .sagol img {
   display: block;
   width: 100%;
   font-size: 90px;
+}
+
+.li-text h5 {
+  margin-top: 490px;
+  margin-left: -20px;
+  font-family: "Michroma", sans-serif;
+  font-size: 17px;
 }
 
 /*btns*/
@@ -802,7 +809,7 @@ li .sagol img {
   background-color: var(--color-primary);
 }
 
-.projtext {
+.nutz {
   font-family: "Press Start 2P", cursive;
 }
 
@@ -1095,12 +1102,11 @@ li .sagol img {
   .commission {
     padding: 7px 19px;
     font-size: 13px;
-    top: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+    top: 7%;
   }
   .header-logo {
     top: 2.8%;
-    left: 2.8%;
+    left: 5%;
     text-shadow: 0px 3px 4px #379683;
     position: fixed;
     z-index: 10;
