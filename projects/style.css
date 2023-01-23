@@ -67,7 +67,7 @@ nav ul li a {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  display: flex;   
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem 0.8rem;
@@ -144,7 +144,7 @@ a:is(:link, :active, :visited).active {
   gap: 15px;
   justify-content: center;
   padding: 10px;
-  
+
 }
 .bokses .image-container .image {
 
@@ -169,7 +169,7 @@ a:is(:link, :active, :visited).active {
   transform: scale(1.1);
 }
 .image-container > div h5 {
-  font-size: 19px;
+  font-size: 16px;
   position: absolute;
   font-family: 'Michroma', sans-serif;
   bottom: 2.5%;
@@ -283,7 +283,7 @@ a:is(:link, :active, :visited).active {
   width: 100%;
   height: 100%;
   background-color: var(--color-secondary);
-  position: fixed; 
+  position: fixed;
   left: 0;
   top: 0.5%;
   z-index: 10;
@@ -291,7 +291,7 @@ a:is(:link, :active, :visited).active {
 .shape-2 {
   clip-path: polygon(0 100%, 1% 100%, 1% 0, 0 0);
   width: 100%;
-  height: 100%; 
+  height: 100%;
   background-color: var(--color-secondary);
   position: fixed;
   left: -0.7%;
