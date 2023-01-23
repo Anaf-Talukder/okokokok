@@ -269,10 +269,12 @@ a:is(:link, :active, :visited).active {
   font-size: 26px;
   margin-bottom: 5px;
   font-family: 'Press Start 2P', cursive;
+  text-shadow: 1px 1px 3px #000000;
 }
 .left-item h3, h4{
   font-size: 13px;
   font-family: 'Michroma', sans-serif;
+  text-shadow: 1px 1px 3px #000000;
 }
 .left-item h3 {
   margin-bottom: 7px;
