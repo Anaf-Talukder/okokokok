@@ -493,6 +493,13 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .image-container > div h5 {
+    font-size: 19px;
+    position: absolute;
+    font-family: 'Michroma', sans-serif;
+    bottom: 2.5%;
+    left: 12%;
+  }
   .bokses h1 {
     font-size: 33px;
   }

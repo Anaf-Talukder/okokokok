@@ -608,9 +608,9 @@ li .sagol img {
   height: 400px;
   width: 550px;
   border: 5px solid #19181d;
+  border-bottom: 45px solid #19181d;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  cursor: pointer;
 }
 
 .bokses .image-container .image img {
@@ -621,8 +621,20 @@ li .sagol img {
   transition: 0.2s linear;
 }
 
+.bokses .image-container > div {
+  position: relative;
+}
+
 .bokses .image-container .image:hover img {
   transform: scale(1.1);
+}
+
+.image-container > div h5 {
+  font-size: 19px;
+  position: absolute;
+  font-family: "Michroma", sans-serif;
+  bottom: 2.5%;
+  left: 1%;
 }
 
 .footer {
@@ -1296,6 +1308,13 @@ li .sagol img {
   }
 }
 @media only screen and (max-width: 450px) {
+  .image-container > div h5 {
+    font-size: 19px;
+    position: absolute;
+    font-family: "Michroma", sans-serif;
+    bottom: 2.5%;
+    left: 12%;
+  }
   .bokses h1 {
     font-size: 33px;
   }
