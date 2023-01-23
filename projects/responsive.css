@@ -32,6 +32,12 @@
     }
 }
 @media only screen and (min-width: 2000px) {
+  .bokses {
+    padding-top: 135px;
+  }
+  .bokses h1 {
+    font-size: 50px;
+  }
     .proj-1 {
       height: 650px;
     }
@@ -115,6 +121,28 @@
     }
 }
 @media only screen and (max-width: 450px) {
+  .bokses {
+    
+    padding-top: 120px;
+  }
+  .bokses .image-container .image {
+    height: 300px;
+    width: 400px;
+    border: 5px solid #19181d;
+    border-bottom: 45px solid #19181d;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  .image-container > div h5 {
+    font-size: 19px;
+    position: absolute;
+    font-family: 'Michroma', sans-serif;
+    bottom: 2.5%;
+    left: 5%;
+  }
+  .bokses h1 {
+    font-size: 33px;
+  }
   .ok1 {
     background-color: var(--color-grey-1);
     border-right: 0px solid #379683;
@@ -227,10 +255,26 @@
   .footer-right ul {
     margin-left: -5px;
   }
+  .bokses .image-container .image {
+    height: 280px;
+    width: 380px;
+    border: 5px solid #19181d;
+    border-bottom: 45px solid #19181d;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
 }
 @media only screen and (max-width: 390px) {
   .footer-right ul {
     margin-left: -19px;
+  }
+  .bokses .image-container .image {
+    height: 270px;
+    width: 360px;
+    border: 5px solid #19181d;
+    border-bottom: 45px solid #19181d;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 375px) {

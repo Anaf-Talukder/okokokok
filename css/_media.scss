@@ -369,6 +369,7 @@
       .li-text h5 {
         font-size: 16px;
       }
+      
 }
 @media only screen and (min-width: 2100px) {
   .sec-mid h1{
@@ -512,7 +513,7 @@
   .image-container > div h5 {
     font-size: 19px;
     position: absolute;
-    font-family: 'Michroma', sans-serif;
+    font-family: 'Michroma', sans-serif; 
     bottom: 2.5%;
     left: 5%;
   }
