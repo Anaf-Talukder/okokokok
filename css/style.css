@@ -605,7 +605,7 @@ li .sagol img {
 }
 
 .bokses .image-container .image {
-  height: 400px;
+  height: 390px;
   width: 550px;
   border: 5px solid #19181d;
   border-bottom: 45px solid #19181d;
@@ -635,6 +635,17 @@ li .sagol img {
   font-family: "Michroma", sans-serif;
   bottom: 2.5%;
   left: 1%;
+}
+
+.bokses-a {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Michroma", sans-serif;
+  padding: 7px 12px;
+  font-size: 13px;
+  background-color: var(--color-primary);
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .footer {
@@ -1088,6 +1099,12 @@ li .sagol img {
   }
 }
 @media only screen and (min-width: 2000px) {
+  .bokses h1 {
+    font-size: 42px;
+    padding: 30px 0px 15px;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+  }
   .about-container .right-about .about-item .abt-text .small-text {
     font-size: 1rem;
   }
@@ -1308,12 +1325,20 @@ li .sagol img {
   }
 }
 @media only screen and (max-width: 450px) {
+  .bokses .image-container .image {
+    height: 300px;
+    width: 400px;
+    border: 5px solid #19181d;
+    border-bottom: 45px solid #19181d;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
   .image-container > div h5 {
     font-size: 19px;
     position: absolute;
     font-family: "Michroma", sans-serif;
     bottom: 2.5%;
-    left: 12%;
+    left: 5%;
   }
   .bokses h1 {
     font-size: 33px;
@@ -1518,6 +1543,14 @@ li .sagol img {
   }
 }
 @media only screen and (max-width: 410px) {
+  .bokses .image-container .image {
+    height: 280px;
+    width: 380px;
+    border: 5px solid #19181d;
+    border-bottom: 45px solid #19181d;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
   .flex-2 h1 {
     font-family: "Press Start 2P", cursive;
     font-size: 17px;
@@ -1605,6 +1638,14 @@ li .sagol img {
   }
   .footer-right ul {
     margin-left: -19px;
+  }
+  .bokses .image-container .image {
+    height: 270px;
+    width: 360px;
+    border: 5px solid #19181d;
+    border-bottom: 45px solid #19181d;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 375px) {

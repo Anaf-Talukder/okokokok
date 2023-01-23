@@ -561,8 +561,8 @@
   
 }
 .bokses .image-container .image {
-  
-  height: 400px;
+
+  height: 390px;
   width: 550px;
   border: 5px solid #19181d;
   border-bottom: 45px solid #19181d;
@@ -588,6 +588,16 @@
   font-family: 'Michroma', sans-serif;
   bottom: 2.5%;
   left: 1%;
+}
+.bokses-a {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Michroma', sans-serif;
+  padding: 7px 12px;
+  font-size: 13px;
+  background-color: var(--color-primary);
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 
