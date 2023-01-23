@@ -37,7 +37,7 @@
   input {
     display: block;
     font-weight: inherit;
-    font-size: inherit;
+    font-size: 17px;
     font-family: inherit;
     padding: 0.8rem 1.1rem;
     outline: none;
@@ -47,14 +47,11 @@
     color: var(--color-white);
     resize: none;
     border: 2px solid #379683;
+    font-family: 'Michroma', sans-serif;
   }
-  input,
-  input::placeholder {
-      font: 22px sans-serif;
-  }
-  textarea,
-  textarea::placeholder {
-    font: 20px sans-serif;
+  textarea {
+    font-weight: inherit;
+    font-size: 17px;
   }
   .contact {
     background-color: var(--color-primary);
@@ -283,6 +280,11 @@
   }
   .left-item h3, h4{
     font-size: 20px;
+  }
+  .commission {
+    padding: 7px 19px;
+    font-size: 13px;
+    top: 7%;
   }
 }
 @media only screen and (min-width: 2100px) {

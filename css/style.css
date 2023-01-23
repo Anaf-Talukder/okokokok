@@ -70,6 +70,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   margin: 1rem 0.8rem;
+  transition: 0.5s ease-in-out;
 }
 
 nav ul li a img {
@@ -642,7 +643,7 @@ li .sagol img {
   text-align: center;
   margin-top: 10px;
   font-family: "Michroma", sans-serif;
-  padding: 7px 12px;
+  padding: 9px 15px;
   font-size: 13px;
   background-color: var(--color-primary);
   margin-left: 50%;
@@ -773,6 +774,7 @@ li .sagol img {
   padding: 8px 12px;
   background-color: var(--color-primary);
   font-size: 14px;
+  margin-top: 18px;
 }
 
 /*Modal*/
@@ -851,34 +853,6 @@ li .sagol img {
   color: var(--color-white);
   text-decoration: none;
   font-size: 20px;
-}
-
-.cards {
-  background-color: var(--color-secondary);
-  padding: 50px;
-}
-
-.set-1 {
-  display: flex;
-  justify-content: center;
-}
-
-.deez {
-  width: 500px;
-  height: 300px;
-  background-color: var(--color-primary);
-}
-
-.nutz {
-  font-family: "Press Start 2P", cursive;
-}
-
-.nut-1 {
-  margin-right: 15px;
-}
-
-.nut-2 {
-  margin-left: 15px;
 }
 
 @media screen and (max-width: 600px) {

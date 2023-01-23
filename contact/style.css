@@ -67,18 +67,17 @@ nav ul {
 
 nav ul li a {
   margin: 0 10px;
-  padding: 1rem;
   cursor: pointer;
-  background-color: var(--color-grey-4);
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  display: flex;
+  width: 50px;
+  height: 50px;
+  display: flex;  
   justify-content: center;
   align-items: center;
   margin: 1rem 0.8rem;
-  box-shadow: var(--box-shadow-1);
-  transition: 0.4s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+nav ul li a img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 a:is(:link, :active, :visited).active {
   color: var(--color-white);
@@ -119,6 +118,7 @@ a:is(:link, :active, :visited).active {
   transition: 0.4s;
   z-index: 10;
   font-family: 'Michroma', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .commission:hover {
   background-color: #157347;
@@ -152,7 +152,7 @@ button {
 input {
   display: block;
   font-weight: inherit;
-  font-size: inherit;
+  font-size: 15px; 
   font-family: inherit;
   padding: 0.8rem 1.1rem;
   outline: none;
@@ -162,10 +162,11 @@ input {
   color: var(--color-white);
   resize: none;
   border: 2px solid #379683;
+  font-family: 'Michroma', sans-serif;
 }
 textarea {
   font-weight: inherit;
-  font-size: inherit;
+  font-size: 15px;
   font-family: inherit;
   padding: 0.8rem 1.1rem;
   outline: none;
@@ -175,6 +176,7 @@ textarea {
   color: var(--color-white);
   resize: none;
   border: 2px solid #379683;
+  font-family: 'Michroma', sans-serif;
 }
 .name {
   margin-bottom: 20px;
@@ -188,13 +190,14 @@ textarea {
 button {
   background-color: var(--color-secondary);
   color: #fff;
-  font-size: 18px;
-  padding: 10px 35px;
+  font-size: 14px;
+  padding: 10px 30px;
   transition: 0.4s;
   border: none;
   cursor:pointer;
   margin-top: 20px;
   transition: 0.4s;
+  font-family: 'Michroma', sans-serif;
 }
 button:hover {
   background-color: #379683;
