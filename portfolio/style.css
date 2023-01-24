@@ -20,11 +20,13 @@
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .main-content {
   background-color: var(--color-primary);
-  
-  
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
 }
@@ -102,7 +104,7 @@ a:is(:link, :active, :visited).active {
 .header-logo {
   top: 3.1%;
   left: 5%;
-  position: fixed;
+position: absolute;
   z-index: 10;
   transition: 0.4s;
 }
@@ -336,59 +338,6 @@ figcaption {
   transform: translateX(-50%);
 }
 
-/*Gallery*/
-
-.gallery {
-  background-color: #379683;
-  padding-bottom: 80px;
-}
-.project-item {
-  display: flex;
-  justify-content: space-evenly;
-}
-.proj-1 {
-  width: 100%;
-  height: 400px;
-}
-.ok1 {
-  background-color: var(--color-grey-1);
-  border-right: 2px solid #19181d;
-  border-bottom: 2px solid #19181d;
-}
-.ok2 {
-  background-color: #2bdb80;
-  border-left: 2px solid #19181d;
-  border-bottom: 2px solid #19181d;
-}
-.ok3 {
-  background-color: #cf285d;
-  border-right: 2px solid #19181d;
-  border-top: 2px solid #19181d;
-}
-.ok4 {
-  background-color: #192887;
-  border-left: 2px solid #19181d;
-  border-top: 2px solid #19181d;
-}
-.item {
-  width: 100%;
-  height: 400px;
-  background-color: #f6cfee;
-  border-top: 2px solid #19181d;
-  border-bottom: 2px solid #19181d;
-}
-.project-items {
-  display: flex;
-  justify-content: space-evenly;
-}
-.gallery h1 { 
-  text-align: center;
-  padding-bottom: 25px;
-  padding-top: 30px;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 40px; 
-  text-shadow: 1px 1px 3px #000000;
-}
 
 /*Footer*/
 
@@ -685,4 +634,100 @@ figcaption {
   color: var(--color-primary);
   text-decoration: none;
   font-size: 20px;
+}
+
+
+
+/*Gallery*/
+
+.modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+.modalDialog > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+}
+.close {
+  background: var(--color-primary);
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -350px;
+  text-align: center;
+  font-size: 40px;
+  top: -35px;
+  width: 24px;
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+  background: #00d9ff;
+}
+.gallery1 .gd1 {
+  width: 950px;
+  height: 500px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  background: var(--color-secondary);
+  padding-bottom: 25px;
+}
+.gallery1 a .image {
+  width: 580px;
+  height: 350px;
+  margin-bottom: 30px;
+  border: 5px solid #19181d;
+  transition: .2s linear;
+}
+.section-1 .gallery1 a img {
+  margin-right: 15px;
+}
+.section-2 .gallery1 a img {
+  margin-left: 15px;
+}
+.gallery1 a .image:hover {
+  transform: scale(1.02);
+}
+.gallery-title {
+  background-color: var(--color-secondary);
+}
+.gallery-title h3 {
+  font-size: 40px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  text-shadow: 1px 1px 3px #000000;
 }
