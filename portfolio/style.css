@@ -668,8 +668,14 @@ figcaption {
 }
 .gallery1 h2 {
   font-family: 'Press Start 2P', cursive;
-  margin-top: 7px;
-  font-size: 26px;
+  margin-top: -3px;
+  font-size: 23px;
+  background-color: var(--color-secondary);
+  width: 950px;
+  padding: 9px 0;
+  border-bottom: 10px solid #19181d;
+  border-left: 11px solid #19181d;
+  border-right: 11px solid #19181d;
 }
 .close {
   font-size: 35px;
