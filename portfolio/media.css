@@ -167,9 +167,15 @@
     padding-top: 50px;
     font-size: 55px;
   }
+  .modalDialog > div {
+    margin-left: 18%;
+  }
 }
 
 @media only screen and (min-width: 1600px) {
+  .modalDialog > div {
+    margin-left: 20%;
+  }
   .carousel {
     padding-top: 60px;
   }
@@ -185,6 +191,9 @@
   }
 }
 @media only screen and (min-width: 1700px) {
+  .modalDialog > div {
+    margin-left: 22%;
+  }
   .carousel {
     padding-top: 60px;
   }
@@ -200,6 +209,9 @@
   }
 }
 @media only screen and (min-width: 1800px) {
+  .modalDialog > div {
+    margin-left: 24%;
+  }
   .title h1 {
     font-size: 40px;
     position: absolute;
@@ -223,6 +235,9 @@
 }
 
 @media only screen and (min-width: 1900px) {
+  .modalDialog > div {
+    margin-left: 26%;
+  }
   .title h1 {
     font-size: 40px;
     position: absolute;
@@ -245,6 +260,17 @@
   }
 }
 @media only screen and (min-width: 2000px) {
+  .gallery-title h3 {
+    font-size: 43px;
+  }
+  .gallery1 a .image {
+    width: 650px;
+    height: 406px;
+    
+  }
+  .modalDialog > div {
+    margin-left: 28%;
+  }
   .header-logo img {
     width: 100%;
   }
@@ -294,7 +320,19 @@
     transition: 0.4s;
   }
 }
+@media only screen and (min-width: 2200px) {
+  .modalDialog > div {
+    margin-left: 27%;
+  }
+  
+}
 @media only screen and (min-width: 2300px) {
+  .gallery-title h3 {
+    font-size: 53px;
+  }
+  .modalDialog > div {
+    margin-left: 29%;
+  }
   .gallery h1 {
     font-size: 65px;
     padding-bottom: 30px;
@@ -327,6 +365,9 @@
   }
 }
 @media only screen and (min-width: 2500px) {
+  .modalDialog > div {
+    margin-left: 30%;
+  }
   .carousel {
     padding-top: 20px;
   }
@@ -343,6 +384,7 @@
   }
 }
 @media only screen and (max-width: 450px) {
+
   .slider {
     margin-top: 195px;
   }
