@@ -30,14 +30,14 @@
     .proj-1 {
       height: 600px;
     }
+    .bokses h1 {
+      font-size: 50px;
+      padding: 45px 0px 25px;
+    }
+    
 }
 @media only screen and (min-width: 2000px) {
-  .bokses {
-    padding-top: 135px;
-  }
-  .bokses h1 {
-    font-size: 50px;
-  }
+  
     .proj-1 {
       height: 650px;
     }
@@ -292,7 +292,7 @@
   top: 5%;
 }
   .header-logo {
-    top: 2.7%;
+    top: 2.7%; 
     left: 5%;
     position: absolute;
     z-index: 10;

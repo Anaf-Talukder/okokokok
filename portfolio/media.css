@@ -235,6 +235,10 @@
 }
 
 @media only screen and (min-width: 1900px) {
+  figcaption {
+    font-size: 28px;
+    margin-bottom: 25.5%;
+  }
   .modalDialog > div {
     margin-left: 26%;
   }
@@ -327,6 +331,10 @@
   
 }
 @media only screen and (min-width: 2300px) {
+  figcaption {
+    font-size: 28px;
+    margin-bottom: 27.3%;
+  }
   .gallery-title h3 {
     font-size: 53px;
   }
@@ -359,12 +367,16 @@
   .title h1 {
     font-size: 50px;
     position: absolute;
-    top: 145px;
+    top: 137px;
     left: 50%;
     transform: translateX(-50%);
   }
 }
 @media only screen and (min-width: 2500px) {
+  figcaption {
+    font-size: 30px;
+    margin-bottom: 27.3%;
+  }
   .modalDialog > div {
     margin-left: 30%;
   }
@@ -373,12 +385,12 @@
   }
   .title {
     font-size: 65px;
-    top: 110px;
+    top: 150px;
   }
   .title h1 {
     font-size: 53px;
     position: absolute;
-    top: 150px;
+    top: 139px;
     left: 50%;
     transform: translateX(-50%);
   }
