@@ -136,7 +136,7 @@ a:is(:link, :active, :visited).active {
   padding: 20px 0px 5px;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-  text-shadow: 1px 1px 3px #000000;
+  text-shadow: 1px 1px 3px #000000; 
 }
 .bokses .image-container {
   display: flex;

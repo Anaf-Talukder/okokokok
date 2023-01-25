@@ -134,7 +134,7 @@ a:is(:link, :active, :visited).active {
 
 .left-header {
   background-color: var(--color-primary);
-  padding-top: 170px;
+  padding-top: 205px;
 }
 
 .left-header .hero {
@@ -1068,6 +1068,14 @@ li .imgpositioning img {
   .proj-1 {
     height: 600px;
   }
+  .left-header {
+    background-color: var(--color-primary);
+    padding-top: 225px;
+  }
+  .commission {
+    font-size: 13px;
+    top: 6%;
+  }
 }
 @media only screen and (min-width: 2000px) {
   .bokses h1 {
@@ -1099,7 +1107,7 @@ li .imgpositioning img {
   }
   .left-header {
     background-color: var(--color-primary);
-    padding-top: 220px;
+    padding-top: 255px;
   }
   .thing {
     background-color: var(--color-secondary);

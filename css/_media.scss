@@ -252,11 +252,20 @@
       .proj-1 {
         height: 550px;
       }
+
 }
 
 @media only screen and (min-width: 1900px) {
       .proj-1 {
         height: 600px;
+      }
+      .left-header {
+        background-color: var(--color-primary);
+        padding-top: 225px;
+      }
+      .commission {
+        font-size: 13px;
+        top: 6%;
       }
 }
 
@@ -291,7 +300,7 @@
   }
   .left-header {
     background-color: var(--color-primary);
-    padding-top: 220px;
+    padding-top: 255px;
   }
   .thing {
     background-color: var(--color-secondary);
