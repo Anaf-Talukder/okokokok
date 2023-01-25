@@ -97,7 +97,7 @@ a:is(:link, :active, :visited).active {
 .header-logo {
   top: 3.1%;
   left: 5%;
-  position: fixed;
+  position: absolute;
   z-index: 10;
   transition: 0.4s;
 }
