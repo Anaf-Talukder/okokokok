@@ -333,7 +333,7 @@ figcaption {
 .title h1 {
   font-size: 40px;
   position: absolute;
-  top: 120px;
+  top: 113px;
   left: 50%;
   transform: translateX(-50%);
 }
