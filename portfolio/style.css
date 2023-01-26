@@ -702,22 +702,36 @@ figcaption {
   background: var(--color-secondary);
   padding-bottom: 25px;
 }
-.gallery1 a .image {
+.image-container { 
   width: 580px;
   height: 350px;
-  margin-bottom: 30px;
-  border: 6px solid #19181d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: .2s linear;
+  border: 5px solid #19181d;
+  overflow: hidden;
 }
-.section-1 .gallery1 a img {
+.gallery1 h6 {
+  font-size: 17px;
+  font-family: 'Michroma', sans-serif;
+  margin-bottom: 20px;
+  background-color: var(--color-primary);
+  width: 580px;
+  padding: 3px 0;
+  border-left: 10px solid #19181d;
+}
+.image-container .image {
+  transition: .2s linear;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+.image-container:hover .image {
+  transform: scale(1.1);
+}
+.section-1 {
   margin-right: 15px;
 }
-.section-2 .gallery1 a img {
+.section-2 {
   margin-left: 15px;
-}
-.gallery1 a .image:hover {
-  transform: scale(1.02);
 }
 .gallery-title {
   background-color: var(--color-secondary);
