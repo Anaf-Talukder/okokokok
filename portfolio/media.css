@@ -323,27 +323,27 @@
 @media only screen and (min-width: 1900px) {
   .img1 {
     position: absolute;
-    top: 1250px;
+    top: 1210px;
     right: 115px;
   }
   .img2 {
     position: absolute;
-    top: 1630px;
+    top: 1580px;
     left: 115px;
   }
   .img3 {
     position: absolute;
-    top: 2030px;
+    top: 1980px;
     right: 115px;
   }
   .img4 {
     position: absolute;
-    top: 2460px;
+    top: 2360px;
     left: 115px;
   }
   .img5 {
     position: absolute;
-    top: 2850px;
+    top: 2750px;
     right: 115px;
   }
 
@@ -382,27 +382,27 @@
 @media only screen and (min-width: 1950px) {
   .img1 {
     position: absolute;
-    top: 1280px;
+    top: 1260px;
     right: 135px;
   }
   .img2 {
     position: absolute;
-    top: 1660px;
+    top: 1630px;
     left: 135px;
   }
   .img3 {
     position: absolute;
-    top: 2070px;
+    top: 2030px;
     right: 135px;
   }
   .img4 {
     position: absolute;
-    top: 2460px;
+    top: 2410px;
     left: 135px;
   }
   .img5 {
     position: absolute;
-    top: 2900px;
+    top: 2800px;
     right: 135px;
   }
 }
@@ -424,23 +424,20 @@
   }
   .img4 {
     position: absolute;
-    top: 2700px;
+    top: 2660px;
     left: 100px;
   }
   .img5 {
     position: absolute;
-    top: 3160px;
+    top: 3070px;
     right: 100px;
   }
   .gallery-title h3 {
     font-size: 43px;
   }
-  .image-container {
+  .gallery1 a .image {
     width: 650px;
     height: 406px; 
-  }
-  .gallery1 h6 {
-    width: 650px;
   }
   .modalDialog > div {
     margin-left: 28%;
@@ -507,17 +504,17 @@
   }
   .img3 {
     position: absolute;
-    top: 2300px;
+    top: 2260px;
     right: 130px;
   }
   .img4 {
     position: absolute;
-    top: 2770px;
+    top: 2710px;
     left: 130px;
   }
   .img5 {
     position: absolute;
-    top: 3250px;
+    top: 3140px;
     right: 130px;
   }
 }
@@ -534,17 +531,17 @@
   }
   .img3 {
     position: absolute;
-    top: 2350px;
+    top: 2310px;
     right: 180px;
   }
   .img4 {
     position: absolute;
-    top: 2820px;
+    top: 2760px;
     left: 180px;
   }
   .img5 {
     position: absolute;
-    top: 3300px;
+    top: 3200px;
     right: 180px;
   }
   .modalDialog > div {
@@ -565,17 +562,17 @@
   }
   .img3 {
     position: absolute;
-    top: 2430px;
+    top: 2360px;
     right: 220px;
   }
   .img4 {
     position: absolute;
-    top: 2870px;
+    top: 2810px;
     left: 220px;
   }
   .img5 {
     position: absolute;
-    top: 3350px;
+    top: 3250px;
     right: 220px;
   }
 
@@ -629,17 +626,17 @@
   }
   .img3 {
     position: absolute;
-    top: 2430px;
+    top: 2410px;
     right: 270px;
   }
   .img4 {
     position: absolute;
-    top: 2870px;
+    top: 2860px;
     left: 270px;
   }
   .img5 {
     position: absolute;
-    top: 3350px;
+    top: 3300px;
     right: 270px;
   }
 }
@@ -651,22 +648,22 @@
   }
   .img2 {
     position: absolute;
-    top: 2040px;
+    top: 2010px;
     left: 330px;
   }
   .img3 {
     position: absolute;
-    top: 2470px;
+    top: 2460px;
     right: 330px;
   }
   .img4 {
     position: absolute;
-    top: 2950px;
+    top: 2910px;
     left: 330px;
   }
   .img5 {
     position: absolute;
-    top: 3410px;
+    top: 3350px;
     right: 330px;
   }
   figcaption {
@@ -861,6 +858,12 @@
   }
   .header-logo img {
     width: 60%;
+  }
+  .section-1 {
+    margin-right: 0px;
+  }
+  .section-2 {
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 430px) {
