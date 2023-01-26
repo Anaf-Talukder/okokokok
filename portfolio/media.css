@@ -284,6 +284,10 @@
   .item {
     height: 600px;
   }
+  .commission {
+    font-size: 13px;
+    top: 6%;
+  }
 }
 @media only screen and (min-width: 2000px) {
   .gallery-title h3 {
@@ -298,11 +302,6 @@
   }
   .header-logo img {
     width: 100%;
-  }
-  .commission {
-    padding: 7px 19px;
-    font-size: 13px;
-    top: 7%;
   }
   .title h1 {
     font-size: 50px;
@@ -344,6 +343,11 @@
     z-index: 10;
     transition: 0.4s;
   }
+  .commission {
+    padding: 7px 19px;
+    font-size: 13px;
+    top: 7%;
+  }
 }
 @media only screen and (min-width: 2200px) {
   .modalDialog > div {
@@ -377,10 +381,6 @@
   }
   .proj-1 {
     height: 700px;
-  }
-  .commission {
-    padding: 4px 17px;
-    font-size: 15px;
   }
   .item {
     height: 700px;
@@ -489,7 +489,7 @@
   }
   .header-logo h1 {
     font-size: 50px;
-}
+} 
 .header-logo {
   position: absolute;
 }
