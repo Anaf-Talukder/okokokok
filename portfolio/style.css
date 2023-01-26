@@ -732,3 +732,9 @@ figcaption {
   padding-bottom: 25px;
   text-shadow: 1px 1px 3px #000000;
 }
+
+
+
+.okimg {
+  display: none;
+}

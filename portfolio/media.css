@@ -207,7 +207,36 @@
     height: 450px;
   }
 }
+
 @media only screen and (min-width: 1700px) {
+  .okimg {
+    display: block;
+  }
+  .img1 {
+    position: absolute;
+    top: 1140px;
+    right: 30px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1510px;
+    left: 30px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1910px;
+    right: 30px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2290px;
+    left: 30px;
+  }
+  .img5 {
+    position: absolute;
+    top: 2680px;
+    right: 30px;
+  }
   .modalDialog > div {
     margin-left: 22%;
   }
@@ -226,6 +255,32 @@
   }
 }
 @media only screen and (min-width: 1800px) {
+  .img1 {
+    position: absolute;
+    top: 1160px;
+    right: 70px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1530px;
+    left: 70px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1930px;
+    right: 70px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2310px;
+    left: 70px;
+  }
+  .img5 {
+    position: absolute;
+    top: 2700px;
+    right: 70px;
+  }
+
   figcaption {
     font-family: 'Michroma', sans-serif;
     font-size: 22px;
@@ -257,6 +312,32 @@
 }
 
 @media only screen and (min-width: 1900px) {
+  .img1 {
+    position: absolute;
+    top: 1210px;
+    right: 115px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1580px;
+    left: 115px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1980px;
+    right: 115px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2360px;
+    left: 115px;
+  }
+  .img5 {
+    position: absolute;
+    top: 2750px;
+    right: 115px;
+  }
+
   figcaption {
     font-size: 25px;
     margin-bottom: 26.2%;
@@ -289,7 +370,59 @@
     top: 6%;
   }
 }
+@media only screen and (min-width: 1950px) {
+  .img1 {
+    position: absolute;
+    top: 1260px;
+    right: 135px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1630px;
+    left: 135px;
+  }
+  .img3 {
+    position: absolute;
+    top: 2030px;
+    right: 135px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2410px;
+    left: 135px;
+  }
+  .img5 {
+    position: absolute;
+    top: 2800px;
+    right: 135px;
+  }
+}
 @media only screen and (min-width: 2000px) {
+  .img1 {
+    position: absolute;
+    top: 1330px;
+    right: 100px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1760px;
+    left: 100px;
+  }
+  .img3 {
+    position: absolute;
+    top: 2210px;
+    right: 100px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2660px;
+    left: 100px;
+  }
+  .img5 {
+    position: absolute;
+    top: 3070px;
+    right: 100px;
+  }
   .gallery-title h3 {
     font-size: 43px;
   }
@@ -349,13 +482,91 @@
     top: 7%;
   }
 }
+@media only screen and (min-width: 2100px) {
+  .img1 {
+    position: absolute;
+    top: 1380px;
+    right: 130px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1810px;
+    left: 130px;
+  }
+  .img3 {
+    position: absolute;
+    top: 2260px;
+    right: 130px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2710px;
+    left: 130px;
+  }
+  .img5 {
+    position: absolute;
+    top: 3140px;
+    right: 130px;
+  }
+}
 @media only screen and (min-width: 2200px) {
+  .img1 {
+    position: absolute;
+    top: 1430px;
+    right: 180px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1860px;
+    left: 180px;
+  }
+  .img3 {
+    position: absolute;
+    top: 2310px;
+    right: 180px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2760px;
+    left: 180px;
+  }
+  .img5 {
+    position: absolute;
+    top: 3200px;
+    right: 180px;
+  }
   .modalDialog > div {
     margin-left: 27%;
   }
   
 }
 @media only screen and (min-width: 2300px) {
+  .img1 {
+    position: absolute;
+    top: 1480px;
+    right: 220px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1910px;
+    left: 220px;
+  }
+  .img3 {
+    position: absolute;
+    top: 2360px;
+    right: 220px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2810px;
+    left: 220px;
+  }
+  .img5 {
+    position: absolute;
+    top: 3250px;
+    right: 220px;
+  }
+
   figcaption {
     font-size: 28px;
     margin-bottom: 27.1%;
@@ -393,7 +604,59 @@
     transform: translateX(-50%);
   }
 }
+@media only screen and (min-width: 2400px) {
+  .img1 {
+    position: absolute;
+    top: 1530px;
+    right: 270px;
+  }
+  .img2 {
+    position: absolute;
+    top: 1960px;
+    left: 270px;
+  }
+  .img3 {
+    position: absolute;
+    top: 2410px;
+    right: 270px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2860px;
+    left: 270px;
+  }
+  .img5 {
+    position: absolute;
+    top: 3300px;
+    right: 270px;
+  }
+}
 @media only screen and (min-width: 2500px) {
+  .img1 {
+    position: absolute;
+    top: 1580px;
+    right: 330px;
+  }
+  .img2 {
+    position: absolute;
+    top: 2010px;
+    left: 330px;
+  }
+  .img3 {
+    position: absolute;
+    top: 2460px;
+    right: 330px;
+  }
+  .img4 {
+    position: absolute;
+    top: 2910px;
+    left: 330px;
+  }
+  .img5 {
+    position: absolute;
+    top: 3350px;
+    right: 330px;
+  }
   figcaption {
     font-size: 28px;
     margin-bottom: 27.7%;
