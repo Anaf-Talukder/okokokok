@@ -379,7 +379,7 @@ a:is(:link, :active, :visited).active {
   color: var(--color-white);
   font-family: 'Press Start 2P', cursive;
   font-size: 27px;
-}
+} 
 .medal__content p {
   margin-bottom: 7px;
   text-align: center;
@@ -409,13 +409,112 @@ a:is(:link, :active, :visited).active {
 
 
 
+.sec-1 .h1 {
+  font-size: 36px;
+  padding-top: 110px;
+  text-align: center;
+  padding-bottom: 20px;
+}
 .sec-1 {
   background-color: var(--color-primary);
-  width: 100%;
-  height: 900px;
+  padding-bottom: 50px;
 }
-.sec-1 h1 {
-  font-size: 36px;
-  padding-top: 115px;
+.text-container {
+  width: 90%;
+  margin: 20px auto;
   text-align: center;
+}
+
+.section-1 {
+  width: 1100px;
+  height: 400px;
+  margin: auto;
+  border: 5px solid #FFFFFF;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 20px;
+}
+.section-1:hover {
+  transform: translateY(-5px);
+  border: 5px solid #379683;
+}
+.text-container h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+.text-container p {
+  font-family: 'Michroma', sans-serif;
+  font-size: 19px;
+  width: 85%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+
+.txt-container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+.txt-container h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+.txt-container p {
+  font-family: 'Michroma', sans-serif;
+  font-size: 19px;
+  width: 85%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.section-2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.section-2 .sub-1 {
+  width: 540px;
+  height: 400px;
+  border: 5px solid #FFFFFF;
+  margin-right: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.section-2 .sub-1:hover {
+  transform: translateY(-5px);
+  border: 5px solid #379683;
+}
+.section-2 .sub-2 {
+  width: 540px;
+  height: 400px;
+  border: 5px solid #FFFFFF;
+  margin-left: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.section-2 .sub-2:hover {
+  transform: translateY(-5px);
+  border: 5px solid #379683;
+}
+
+
+.section-3 {
+  width: 1100px;
+  height: 400px;
+  margin: auto;
+  border: 5px solid #FFFFFF;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+}
+.section-3:hover {
+  transform: translateY(-5px);
+  border: 5px solid #379683;
+}
+.yes {
+  margin-top: 9px;
+}
+ol p {
+  list-style-type: decimal;
 }
