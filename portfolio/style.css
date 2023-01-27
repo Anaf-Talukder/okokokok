@@ -127,7 +127,7 @@ position: absolute;
 
 /*Carousel*/
 
-section {
+.section {
   padding-top: 15px;
 }
 
@@ -251,6 +251,7 @@ section {
 }
 figcaption {
   font-size: 25px;
+  
 }
 .carousel__slide .credit {
   margin-top: 5px;

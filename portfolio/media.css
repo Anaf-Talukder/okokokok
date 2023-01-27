@@ -164,7 +164,7 @@
       }
 }
 @media only screen and (min-width: 1500px) {
-  section {
+  .section {
     padding-top: 40px;
   }
   .carousel {
@@ -651,7 +651,7 @@
   }
 }
 @media only screen and (min-width: 2500px) {
-  section {
+  .section {
     padding-top: 50px;
   }
   .img1 {
