@@ -253,12 +253,6 @@
   }
 }
 
-@media only screen and (max-width: 4100px){
-  .section-2 {
-    display: block;
-    margin-left: 3.8%;
-  }
-}
 @media only screen and (max-width: 390px) {
   .footer-right ul {
     margin-left: -19px;
