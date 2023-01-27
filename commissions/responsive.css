@@ -16,6 +16,11 @@
       font-size: 13px;
       top: 6%;
     }
+    .sec-1 h1 {
+      font-size: 42px;
+      padding-top: 130px;
+      text-align: center;
+    }
     
 }
 @media only screen and (min-width: 2000px) {
@@ -45,10 +50,11 @@
       font-size: 20px;
     }
     .sec-1 h1 {
-      font-size: 50px;
-      padding-top: 140px;
+      font-size: 48px;
+      padding-top: 137px;
       text-align: center;
     }
+    
 }
 @media only screen and (min-width: 2300px) {
   
