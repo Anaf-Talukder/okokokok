@@ -448,7 +448,7 @@ a:is(:link, :active, :visited).active {
   width: 85%;
   margin-left: 50%;
   transform: translateX(-50%);
-  text-align: center;
+  text-align: justify;
 }
 
 
@@ -468,7 +468,7 @@ a:is(:link, :active, :visited).active {
   width: 85%;
   margin-left: 50%;
   transform: translateX(-50%);
-  text-align: center;
+  text-align: justify;
 }
 
 .section-2 {
@@ -515,6 +515,6 @@ a:is(:link, :active, :visited).active {
 .yes {
   margin-top: 9px;
 }
-ol p {
-  list-style-type: decimal;
+.p {
+  text-align: justify;
 }
