@@ -334,8 +334,11 @@ a:is(:link, :active, :visited).active {
 
 
 
-.shetz {
+.sec-1 {
   background-color: var(--color-primary);
   width: 100%;
   height: 900px;
+}
+.sec-1 h1 {
+  font-size: 30px;
 }
