@@ -340,5 +340,7 @@ a:is(:link, :active, :visited).active {
   height: 900px;
 }
 .sec-1 h1 {
-  font-size: 30px;
+  font-size: 36px;
+  padding-top: 115px;
+  text-align: center;
 }

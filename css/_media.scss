@@ -270,6 +270,13 @@
 }
 
 @media only screen and (min-width: 2000px) {
+  .clients-title h1 {
+    font-size: 43px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 30px 0 35px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000000;
+  }
   .bokses h1 {
     font-size: 42px;
     padding: 30px 0px 15px;
@@ -514,8 +521,8 @@
   .bokses .image-container .image {
     height: 300px;
     width: 400px;
-    border: 5px solid #19181d;
-    border-bottom: 45px solid #19181d;
+    border: 5px solid #379683;
+    border-bottom: 45px solid #379683;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     overflow: hidden;
   }
@@ -626,11 +633,11 @@
       align-items: center;
     }
     .footer-left img {
-      background-color: var(--color-secondary);
+      background-color: var(--color-primary);
       width: 100px;
       height: 100px;
       border-radius: 50%;
-      border: 3px solid #379683;
+      border: 3px solid #19181d;
       margin-right: 15px;
     }
     .footer-right {
@@ -710,7 +717,7 @@
 .clients {
   display: block;
   padding-bottom: 25px;
-  
+  padding-left: 15%;
 }
 .client img {
   border-radius: 50%;
@@ -718,9 +725,20 @@
   height: 150px;
   margin-bottom: 10px;
 }
-
+.clients-title h1 {
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 30px 0 35px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000000;
+}
 }
 @media only screen and (max-width: 430px) {
+  .clients {
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 12%;
+  }
   .footer-right {
     margin-top: 10px;
     margin-left: 40px;
@@ -753,7 +771,13 @@
     bottom: -2%;
   }
 }
+
 @media only screen and (max-width: 410px) {
+  .clients {
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 10%;
+  }
   .bokses .image-container .image {
     height: 280px;
     width: 380px;
@@ -803,7 +827,11 @@
   }
 }
 @media only screen and (max-width: 400px) {
-
+  .clients {
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 9%;
+  }
   .sec-left img {
     position: absolute;
     z-index: 1;
@@ -836,6 +864,11 @@
   }
 }
 @media only screen and (max-width: 390px) {
+  .clients {
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 8%;
+  }
   .flex-1 {
     display: none;
   }
@@ -864,9 +897,18 @@
     overflow: hidden;
   }
 }
+@media only screen and (max-width: 380px) {
+  .clients {
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 6.5%;
+  }
+}
 @media only screen and (max-width: 375px) {
-  .footer-right ul {
-    margin-left: -27px;
+  .clients {
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 5.5%;
   }
 }
 @media only screen and (max-width: 350px) {
