@@ -14,7 +14,7 @@
   --color-grey-1: #dbe1e8;
   --color-grey-2: #b2becd;
   --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
+  --color-grey-4: #454e56; 
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
@@ -128,7 +128,7 @@ a:is(:link, :active, :visited).active {
 .bokses {
   background-color: var(--color-primary);
   position: relative;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   padding-top: 95px;
 }
 .bokses h1 {
@@ -150,8 +150,8 @@ a:is(:link, :active, :visited).active {
 
   height: 390px;
   width: 550px;
-  border: 5px solid #19181d;
-  border-bottom: 45px solid #19181d;
+  border: 5px solid #379683;
+  border-bottom: 45px solid #379683;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   overflow: hidden;
 }
@@ -172,14 +172,14 @@ a:is(:link, :active, :visited).active {
   font-size: 16px;
   position: absolute;
   font-family: 'Michroma', sans-serif;
-  bottom: 4%;
+  bottom: 3%;
   left: 1%;
 }
 .gud h5 {
   font-size: 16px;
   position: absolute;
   font-family: 'Michroma', sans-serif;
-  bottom: 4%;
+  bottom: 3%;
   left: 1%;
 }
 
@@ -204,33 +204,6 @@ a:is(:link, :active, :visited).active {
   height: 400px;
 }
 
-.ok1 {
-  background-color: var(--color-grey-1);
-  border-right: 2px solid #19181d;
-  border-bottom: 2px solid #19181d;
-  border-top: 4px solid #19181d;
-}
-
-.ok2 {
-  background-color: #79d919;
-  border-left: 2px solid #19181d;
-  border-bottom: 2px solid #19181d;
-  border-top: 4px solid #19181d;
-}
-
-.ok3 {
-  background-color: #aab6b3;
-  border-right: 2px solid #19181d;
-  border-top: 2px solid #19181d;
-  border-bottom: 4px solid #19181d;
-}
-
-.ok4 {
-  background-color: #87e5d3;
-  border-left: 2px solid #19181d;
-  border-top: 2px solid #19181d;
-  border-bottom: 4px solid #19181d;
-}
 
 .project-items {
   display: flex;
@@ -529,5 +502,5 @@ a:is(:link, :active, :visited).active {
 
 
 .okimg {
-  display: hidden;
+  display: none;
 }
