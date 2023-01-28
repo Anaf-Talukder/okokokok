@@ -518,3 +518,12 @@ a:is(:link, :active, :visited).active {
 .p {
   text-align: justify;
 }
+
+
+
+
+
+
+.okimg {
+  display: none;
+}

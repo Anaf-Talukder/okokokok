@@ -2,16 +2,65 @@
   
 }
 @media only screen and (min-width: 1700px) {
-  
-}
-@media only screen and (min-width: 1600px) {
-  
+  .okimg {
+    display: block;
+  }
+  .img1 {
+    position: absolute;
+    top: 240px;
+    right: 50px;
+  }
+  .img2 {
+    position: absolute;
+    top: 680px;
+    left: 50px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1120px;
+    right: 50px;
+  }
 }
 
 @media only screen and (min-width: 1800px) {
-
+  .okimg {
+    display: block;
+  }
+  .img1 {
+    position: absolute;
+    top: 240px;
+    right: 90px;
+  }
+  .img2 {
+    position: absolute;
+    top: 680px;
+    left: 90px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1120px;
+    right: 90px;
+  }
 }
 @media only screen and (min-width: 1900px) {
+  .okimg {
+    display: block;
+  }
+  .img1 {
+    position: absolute;
+    top: 240px;
+    right: 120px;
+  }
+  .img2 {
+    position: absolute;
+    top: 680px;
+    left: 120px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1120px;
+    right: 120px;
+  }
     .commission {
       font-size: 13px;
       top: 6%;
@@ -26,6 +75,27 @@
     
 }
 @media only screen and (min-width: 2000px) {
+  .sec-1 .h1 {
+    font-size: 42px;
+    padding-top: 135px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .img1 {
+    position: absolute;
+    top: 240px;
+    right: 180px;
+  }
+  .img2 {
+    position: absolute;
+    top: 680px;
+    left: 180px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1120px;
+    right: 180px;
+  }
     nav ul {
       top: 2.6%;
     }
@@ -51,8 +121,41 @@
     .left-item h3, h4{
       font-size: 20px;
     }
-    
-    
+}
+
+@media only screen and (min-width: 2100px) {
+  .img1 {
+    position: absolute;
+    top: 240px;
+    right: 230px;
+  }
+  .img2 {
+    position: absolute;
+    top: 680px;
+    left: 230px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1120px;
+    right: 230px;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  .img1 {
+    position: absolute;
+    top: 240px;
+    right: 270px;
+  }
+  .img2 {
+    position: absolute;
+    top: 680px;
+    left: 270px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1120px;
+    right: 270px;
+  }
 }
 @media only screen and (min-width: 2300px) {
   .sec-1 .h1 {
@@ -60,6 +163,38 @@
     padding-top: 135px;
     text-align: center;
     padding-bottom: 30px;
+  }
+  .img1 {
+    position: absolute;
+    top: 240px;
+    right: 310px;
+  }
+  .img2 {
+    position: absolute;
+    top: 680px;
+    left: 310px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1120px;
+    right: 310px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .img1 {
+    position: absolute;
+    top: 250px;
+    right: 380px;
+  }
+  .img2 {
+    position: absolute;
+    top: 680px;
+    left: 380px;
+  }
+  .img3 {
+    position: absolute;
+    top: 1120px;
+    right: 380px;
   }
 }
 
@@ -70,6 +205,14 @@
   
 }
 @media only screen and (max-width: 450px) {
+  .modal__footer p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -15px;
+    font-family: 'Michroma', sans-serif;
+  }
   .text-container {
     width: 100%;
     margin: 20px auto;
@@ -253,7 +396,25 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .modal__footer p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -25px;
+    font-family: 'Michroma', sans-serif;
+  }
+}
 @media only screen and (max-width: 390px) {
+  .modal__footer p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -30px;
+    font-family: 'Michroma', sans-serif;
+  }
   .footer-right ul {
     margin-left: -19px;
   }
@@ -261,8 +422,16 @@
     display: block;
     margin-left: 2.8%;
   }
-}
+} 
 @media only screen and (max-width: 380px) {
+  .modal__footer p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -38px;
+    font-family: 'Michroma', sans-serif;
+  }
   .section-2 {
     display: block;
     margin-left: 3%;
