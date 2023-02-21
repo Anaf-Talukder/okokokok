@@ -1,3 +1,7 @@
+(function($){
+	'use strict'
+
+
 const activePage = window.location.pathname;
 const navLinks = document.querySelectorAll('nav a').forEach(link => {
   if(link.href.includes(`${activePage}`)){
@@ -22,3 +26,10 @@ document.querySelectorAll('.image-container img').forEach(image =>{
     document.querySelector('.popup-image img').src = image.getAttribute('src');
   }
 });
+
+$(window).on("load", function(){
+  $(".loader-wrapper").delay("1000").fadeOut();
+});
+
+
+}) (jQuery);
