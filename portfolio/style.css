@@ -926,6 +926,7 @@ figcaption {
   justify-content: center;
   margin-bottom: 22px;
 }
+
 .item-menu button {
   font-size: 14px;
   font-family: 'Michroma', sans-serif;
@@ -934,6 +935,15 @@ figcaption {
   padding: 5px 13px;
   margin: 0px 7px;
   border: 2px solid #19181d;
+}
+.item-menu .active {
+  font-size: 14px;
+  font-family: 'Michroma', sans-serif;
+  font-weight: 600;
+  background-color: var(--color-primary);
+  padding: 5px 13px;
+  margin: 0px 7px;
+  color: var(--color-white);
 }
 .btn-left {
   margin-bottom: 17px;
