@@ -75,6 +75,9 @@
     width: 650px;
     height: 406px;
   }
+  .the-gallery{
+    margin-left: 0px;
+  }
 }
 @media only screen and (min-width: 1500px) {
   .section {
@@ -111,9 +114,19 @@
     width: 650px;
     height: 406px;
   }
+  .the-gallery{
+    margin-left: 5px;
+  }
 }
-
+@media only screen and (min-width: 1550px) {
+  .the-gallery{
+    margin-left: 20px;
+  }
+}
 @media only screen and (min-width: 1600px) {
+  .the-gallery{
+    margin-left: 42px;
+  }
   figcaption {
     font-family: 'Michroma', sans-serif;
     font-size: 20px;
@@ -140,30 +153,14 @@
     height: 406px;
   }
 }
-
+@media only screen and (min-width: 1650px) {
+  .the-gallery{
+    margin-left: 70px;
+  }
+}
 @media only screen and (min-width: 1700px) {
-  .okimg {
-    display: block;
-  }
-  .img1 {
-    position: absolute;
-    top: 1140px;
-    right: 30px;
-  }
-  .img2 {
-    position: absolute;
-    top: 1510px;
-    left: 30px;
-  }
-  .img3 {
-    position: absolute;
-    top: 1880px;
-    right: 30px;
-  }
-  .img4 {
-    position: absolute;
-    top: 2230px;
-    left: 30px;
+  .the-gallery{
+    margin-left: 95px;
   }
   .img5 {
     position: absolute;
@@ -198,33 +195,15 @@
     height: 406px;
   }
 }
+@media only screen and (min-width: 1750px) {
+  .the-gallery{
+    margin-left: 115px;
+  }
+}
 @media only screen and (min-width: 1800px) {
-  .img1 {
-    position: absolute;
-    top: 1200px;
-    right: 70px;
+  .the-gallery{
+    margin-left: 138px;
   }
-  .img2 {
-    position: absolute;
-    top: 1550px;
-    left: 70px;
-  }
-  .img3 {
-    position: absolute;
-    top: 1930px;
-    right: 70px;
-  }
-  .img4 {
-    position: absolute;
-    top: 2310px;
-    left: 70px;
-  }
-  .img5 {
-    position: absolute;
-    top: 2630px;
-    right: 70px;
-  }
-
   figcaption {
     font-family: 'Michroma', sans-serif;
     font-size: 20px;
@@ -262,8 +241,18 @@
     height: 406px;
   }
 }
-
+@media only screen and (min-width: 1850px) {
+  .the-gallery{
+    margin-left: 160px;
+  }
+}
 @media only screen and (min-width: 1900px) {
+  .the-gallery{
+    margin-left: 185px;
+  }
+  .okimg {
+    display: block;
+  }
   .body img {
     width: 975px;
     height: 609px;
@@ -337,8 +326,15 @@
     font-size: 47px;
   }
 }
-
+@media only screen and (min-width: 1950px) {
+  .the-gallery{
+    margin-left: 205px;
+  }
+}
 @media only screen and (min-width: 2000px) {
+  .the-gallery{
+    margin-left: 225px;
+  }
   .img1 {
     position: absolute;
     top: 1310px;
@@ -415,7 +411,15 @@
     top: 7%;
   }
 }
+@media only screen and (min-width: 2050px) {
+  .the-gallery{
+    margin-left: 253px;
+  }
+}
 @media only screen and (min-width: 2100px) {
+  .the-gallery{
+    margin-left: 270px;
+  }
   .img1 {
     position: absolute;
     top: 1370px;
@@ -442,7 +446,15 @@
     right: 110px;
   }
 }
+@media only screen and (min-width: 2150px) {
+  .the-gallery{
+    margin-left: 295px;
+  }
+}
 @media only screen and (min-width: 2200px) {
+  .the-gallery{
+    margin-left: 315px;
+  }
   .img1 {
     position: absolute;
     top: 1400px;
@@ -473,7 +485,15 @@
   }
   
 }
+@media only screen and (min-width: 2250px) {
+  .the-gallery{
+    margin-left: 335px;
+  }
+}
 @media only screen and (min-width: 2300px) {
+  .the-gallery{
+    margin-left: 335px;
+  }
   .img1 {
     position: absolute;
     top: 1480px;
@@ -531,7 +551,15 @@
     transform: translateX(-50%);
   }
 }
+@media only screen and (min-width: 2350px) {
+  .the-gallery{
+    margin-left: 380px;
+  }
+}
 @media only screen and (min-width: 2400px) {
+  .the-gallery{
+    margin-left: 400px;
+  }
   .img1 {
     position: absolute;
     top: 1530px;
@@ -558,7 +586,15 @@
     right: 270px;
   }
 }
+@media only screen and (min-width: 2450px) {
+  .the-gallery{
+    margin-left: 425px;
+  }
+}
 @media only screen and (min-width: 2500px) {
+  .the-gallery{
+    margin-left: 445px;
+  }
   .section {
     padding-top: 50px;
   }
@@ -610,6 +646,11 @@
   }
   .carousel__slide figcaption {
     width: 25%;
+  }
+}
+@media only screen and (min-width: 2550px) {
+  .the-gallery{
+    margin-left: 470px;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -761,9 +802,6 @@
     width: 400px;
     height: 250px;
   }
-  .continer {
-    margin-left: 23px;
-  }
   .body img {
     width: 420px;
     height: 262px;
@@ -774,9 +812,6 @@
   }
 }
 @media only screen and (max-width: 430px) {
-  .continer {
-    margin-left: 13px;
-  }
   .footer-right {
     margin-top: 10px;
     margin-left: 40px;
@@ -807,17 +842,11 @@
     font-size: 14px;
     width: 400px;
   }
-  .continer {
-    margin-left: 7px;
-  }
 }
 @media only screen and (max-width: 410px) {
   .continer button img {
     width: 370px;
     height: 230px;
-  }
-  .continer {
-    margin-left: 18px;
   }
   .modalDialog > div {
     position: relative;
@@ -849,9 +878,6 @@
   }
 }
 @media only screen and (max-width: 400px) {
-  .continer {
-    margin-left: 11px;
-  }
   .modal__footer p{
     color: var(--color-white);
     text-align: center;
@@ -892,9 +918,6 @@
     font-size: 14px;
     width: 385px;
   }
-  .continer {
-    margin-left: 6px;
-  }
   .modalDialog > div {
     position: relative;
     top: 43%;
@@ -915,9 +938,6 @@
   }
 }
 @media only screen and (max-width: 380px) {
-  .continer {
-    margin-left: 3px;
-  }
   .modal__footer p{
     color: var(--color-white);
     text-align: center;
@@ -937,9 +957,6 @@
 @media only screen and (max-width: 375px) {
   .footer-right ul {
     margin-left: -27px;
-  }
-  .continer {
-    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 350px) {

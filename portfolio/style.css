@@ -180,7 +180,7 @@ position: absolute;
 .container {
   width: 87%;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 35px;
   margin-top: 5px;
 }
 .carousel {
@@ -828,6 +828,11 @@ figcaption {
 
 .outside {
   background-color: var(--color-secondary);
+  width: 87%;
+  margin: 0 auto;
+}
+.the-gallery{
+  margin-left: 40px;
 }
 
 .bton {
@@ -935,6 +940,7 @@ figcaption {
   padding: 5px 13px;
   margin: 0px 7px;
   border: 2px solid #19181d;
+  cursor: pointer;
 }
 .item-menu .active {
   font-size: 14px;
@@ -946,8 +952,19 @@ figcaption {
   color: var(--color-white);
 }
 .btn-left {
-  margin-bottom: 17px;
+  margin-right: 5px;
+  
 }
 .btn-right {
-  margin-bottom: 17px;
+  margin-left: 5px;
+}
+.continer {
+  display: flex;
+  justify-content: center;
+}
+.model {
+  margin-bottom: 6px;
+}
+.pix {
+  margin-bottom: 6px;
 }
