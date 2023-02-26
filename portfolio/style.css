@@ -797,7 +797,7 @@ figcaption {
   display: flex; 
   justify-content: center;
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   text-shadow: 1px 1px 3px #000000;
 }
 
@@ -953,7 +953,6 @@ figcaption {
 }
 .btn-left {
   margin-right: 5px;
-  
 }
 .btn-right {
   margin-left: 5px;
