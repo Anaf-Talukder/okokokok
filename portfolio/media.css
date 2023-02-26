@@ -57,6 +57,19 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .the-gallery{
+    margin-left: -85px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .the-gallery{
+    margin-left: -30px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .the-gallery{
+    margin-left: 17px;
+  }
 }
 @media only screen and (min-width: 1400px) {
   .title h1 {
@@ -500,12 +513,18 @@
   }
 }
 @media only screen and (max-width: 450px) {
+  .the-gallery{
+    margin-left: -5px;
+  }
   .btn-left {
     margin-right: 0px;
+    margin-bottom: 5px;
   }
   .btn-right {
     margin-left: 0px;
+    margin-bottom: 5px;
   }
+
 
   .section-1 .gallery1 a img {
     margin-right: 0px;
@@ -658,6 +677,9 @@
   }
 }
 @media only screen and (max-width: 430px) {
+  .the-gallery{
+    margin-left: -13px;
+  }
   .footer-right {
     margin-top: 10px;
     margin-left: 40px;
@@ -680,6 +702,15 @@
 }
 
 @media only screen and (max-width: 420px) {
+  .item-menu button {
+    font-size: 12px;
+  }
+  .item-menu .active {
+    font-size: 12px;
+  }
+  .the-gallery{
+    margin-left: -19px;
+  }
   .body img {
     width: 400px;
     height: 249px;
@@ -690,6 +721,9 @@
   }
 }
 @media only screen and (max-width: 410px) {
+  .the-gallery{
+    margin-left: -9px;
+  }
   .continer button img {
     width: 370px;
     height: 230px;
@@ -724,6 +758,9 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  .the-gallery{
+    margin-left: -12px;
+  }
   .modal__footer p{
     color: var(--color-white);
     text-align: center;
@@ -756,6 +793,9 @@
   }
 }
 @media only screen and (max-width: 390px) {
+  .the-gallery{
+    margin-left: -17px;
+  }
   .body img {
     width: 385px;
     height: 240px;
@@ -784,6 +824,15 @@
   }
 }
 @media only screen and (max-width: 380px) {
+  .item-menu button {
+    font-size: 11px;
+  }
+  .item-menu .active {
+    font-size: 11px;
+  }
+  .the-gallery{
+    margin-left: -20px;
+  }
   .modal__footer p{
     color: var(--color-white);
     text-align: center;
@@ -803,6 +852,9 @@
 @media only screen and (max-width: 375px) {
   .footer-right ul {
     margin-left: -27px;
+  }
+  .the-gallery{
+    margin-left: -23px;
   }
 }
 @media only screen and (max-width: 350px) {

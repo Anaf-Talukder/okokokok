@@ -493,9 +493,8 @@ figcaption {
   margin: 0px auto;
   max-width: 940px;
   display: none;
-  margin-top: 160px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-top: 160px;
+  padding-bottom: 40px;
   background-color: var(--color-primary);
 }
 .slider img {
@@ -868,7 +867,7 @@ figcaption {
 
 .metal {
   position: fixed;
-  top: -50%;
+  top: -60%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: top 0.3s ease-in-out;
