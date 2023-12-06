@@ -21,17 +21,19 @@
 		<nav>
 			<ul>
 				<li><a href="../index.html"><img onContextMenu="return false;" src="images/home_btn.png" alt=""></a></li>
-				<li><a href="../projects/projects.html"><img onContextMenu="return false;" src="images/projects_btn.png" alt=""></a></li>
 				<li><a href="portfolio.html"><img onContextMenu="return false;" src="images/portfolio_btn.png" alt=""></a></li>
+				<li><a href="../projects/projects.html"><img onContextMenu="return false;" src="images/projects_btn.png" alt=""></a></li>		
 				<li><a href="../commissions/commission.html"><img onContextMenu="return false;" src="images/commissions_btn.png" alt=""></a></li>
 				<li><a href="../contact/contact.html"><img onContextMenu="return false;" src="images/contact_btn.png" alt=""></a></li>
 
 			</ul>
 		</nav>
 		<div class="commission">
-			<a href="../commissions/commission.html">Commissions Open!</a>
+			<a href="commissions/commission.html">Commissions Open!</a>
+			<span class="tooltiptext">Long-term Only</span>
 		</div>
 	</header>
+
 
 	<div class="title">
 		<h1>Portfolio</h1>
@@ -128,7 +130,7 @@
 						<label for="slide-4"><img onContextMenu="return false;" src="images/large_slideshow/4.png" alt=""></label>
 					</li>
 					<li>
-						<label for="slide-5"><img onContextMenu="return false;" src="images/large_slideshow/5.png" alt=""></label>
+							<label for="slide-5"><img onContextMenu="return false;" src="images/large_slideshow/5.png" alt=""></label>
 					</li>
 					<li>
 						<label for="slide-6"><img onContextMenu="return false;" src="images/large_slideshow/6.png" alt=""></label>
@@ -201,49 +203,51 @@
 
 	<div class="gallery-title"><h3>Gallery</h3></div>
 	
+		<!--Gallery Thumbnail-->
 	<div class="outside">
 		<div class="item-menu">
-				<button data-filter="*" class="active">All Items</button>
+				<button data-filter="*" class="active">All Items</button> 
 				<button data-filter=".pix">Pixel Art</button>
 				<button data-filter=".model">Models</button>			
 		</div>
 		<div class="the-gallery">
-			<div class="viewer model cool">
+			<div class="viewer pix cool">
 				<div class="continer">
 					<button class="bton btn-left" data-target="#modal1"><img onContextMenu="return false;" class="left-img" src="images/gallery/g1_pixelart_thumb.png"></button>
 					<button class="bton btn-right" data-target="#modal2"><img onContextMenu="return false;" class="right-img" src="images/gallery/g2_items_thumb.png" alt=""></button>
 				</div>
 				<div class="okimg img1"><img onContextMenu="return false;" src="images/chars/char_g.png" alt=""></div>
+				<div id="overlay"></div>
 			</div>
 		
 		
-			<div class="viewer2 pix">
+			<div class="viewer2 model">
 				<div class="cool">
 					<div class="okimg img2"><img onContextMenu="return false;" src="images/chars/char_pb.png" alt=""></div>
 					<div class="continer">
-						<button class="bton btn-left" data-target="#modal3"><img onContextMenu="return false;" class="left-img" src="images/gallery/g3_ui_thumb.png"></button>
-						<button class="bton btn-right" data-target="#modal4"><img onContextMenu="return false;" class="right-img" src="images/gallery/g4_em_thumb.png" alt=""></button>
+						<button class="bton btn-left" data-target="#modal5"><img onContextMenu="return false;" class="left-img" src="images/gallery/mob_thumbnail.png"></button>
+						<button class="bton btn-right" data-target="#modal6"><img onContextMenu="return false;" class="right-img" src="images/gallery/nether_set_thumbnail.png" alt=""></button>
 					</div>
 				</div>
-				  <div id="overlay"></div>
+				  
 			</div>
 		
-			<div class="viewer3 model">
+			<div class="viewer3 pix">
 				<div class="cool">
 					<div class="continer">
-						<button class="bton btn-left" data-target="#modal5"><img onContextMenu="return false;" class="left-img" src="images/gallery/model_preview_thumb.png"></button>
-						<button class="bton btn-right" data-target="#modal6"><img onContextMenu="return false;" class="right-img" src="images/gallery/model_preview_thumb.png" alt=""></button>
+						<button class="bton btn-left" data-target="#modal3"><img onContextMenu="return false;" class="left-img" src="images/gallery/g3_ui_thumb.png"></button>
+						<button class="bton btn-right" data-target="#modal4"><img onContextMenu="return false;" class="right-img" src="images/gallery/g4_em_thumb.png" alt=""></button>
 					</div>
 					<div class="okimg img3"><img onContextMenu="return false;" src="images/chars/char_ahb.png" alt=""></div>
 				</div>
 				<div id="overlay"></div>
 			</div>
 		
-			<div class="viewer4 pix">
+			<div class="viewer4 model">
 				<div class="cool">
 					<div class="okimg img4"><img onContextMenu="return false;" src="images/chars/char_const_flipped.png" alt=""></div>
 					<div class="continer">
-						<button class="bton btn-left" data-target="#modal7"><img onContextMenu="return false;" class="left-img" src="images/gallery/model_preview_thumb.png"></button>
+						<button class="bton btn-left" data-target="#modal7"><img onContextMenu="return false;" class="left-img" src="images/gallery/swords_thumbnail.png"></button>
 						<button class="bton btn-right" data-target="#modal8"><img onContextMenu="return false;" class="right-img" src="images/gallery/model_preview_thumb.png"></button>
 					</div>
 					
@@ -251,43 +255,43 @@
 				  <div id="overlay"></div>
 			</div>
 
-			<div class="viewer5 model">
+			<div class="viewer5 pix">
 				<div class="cool">
 					<div class="continer">
-						<button class="bton btn-left" data-target="#modal9"><img onContextMenu="return false;" class="left-img" src="images/gallery/model_preview_thumb.png"></button>
-						<button class="bton btn-right" data-target="#modal10"><img onContextMenu="return false;" class="right-img" src="images/gallery/model_preview_thumb.png" alt=""></button>
+						<button class="bton btn-left" data-target="#modal9"><img onContextMenu="return false;" class="left-img" src="images/gallery/g5_thumb.png"></button>
+						<button class="bton btn-right" data-target="#modal10"><img onContextMenu="return false;" class="right-img" src="images/gallery/g6_thumb.png" alt=""></button>
 					</div>
 					<div class="okimg img3"><img onContextMenu="return false;" src="images/chars/char_mc_gh.png" alt=""></div>
 				</div>
 				<div id="overlay"></div>
 			</div>
-			<div class="viewer6 pix">
+			<div class="viewer6 model">
 				<div class="cool">
 					<div class="okimg img2"><img onContextMenu="return false;" src="images/chars/char_sz_flipped.png" alt=""></div>
 					<div class="continer">
 						<button class="bton btn-left" data-target="#modal11"><img onContextMenu="return false;" class="left-img" src="images/gallery/model_preview_thumb.png"></button>
-						<button class="bton btn-right" data-target="#modal2"><img onContextMenu="return false;" class="right-img" src="images/gallery/model_preview_thumb.png"></button>
+						<button class="bton btn-right" data-target="#modal12"><img onContextMenu="return false;" class="right-img" src="images/gallery/model_preview_thumb.png"></button>
 					</div>
 					
 				</div>
 				<div id="overlay"></div>
 			</div>
-			<div class="viewer7 model">
+			<div class="viewer7 pix">
 				<div class="cool">
 					<div class="continer">
-						<button class="bton btn-left" data-target="#modal3"><img onContextMenu="return false;" class="left-img" src="images/gallery/model_preview_thumb.png"></button>
-						<button class="bton btn-right" data-target="#modal14"><img onContextMenu="return false;" class="right-img" src="images/gallery/model_preview_thumb.png" alt=""></button>
+						<button class="bton btn-left" data-target="#modal13"><img onContextMenu="return false;" class="left-img" src="images/gallery/g7_thumb.png"></button>
+						<button class="bton btn-right" data-target="#modal14"><img onContextMenu="return false;" class="right-img" src="images/gallery/g8_thumb.png" alt=""></button>
 					</div>
 					<div class="okimg img3"><img onContextMenu="return false;" src="images/chars/char_constl.png" alt=""></div>
 				</div>
 				<div id="overlay"></div>
 			</div>
-			<div class="viewer8 pix">
+			<div class="viewer8 model">
 				<div class="cool">
 					<div class="okimg img2"><img onContextMenu="return false;" src="images/chars/char_g_flipped.png" alt=""></div>
 					<div class="continer">
 						<button class="bton btn-left" data-target="#modal15"><img onContextMenu="return false;" class="left-img" src="images/gallery/model_preview_thumb.png"></button>
-						<button class="bton btn-right" data-target="#modal6"><img onContextMenu="return false;" class="right-img" src="images/gallery/model_preview_thumb.png"></button>
+						<button class="bton btn-right" data-target="#modal16"><img onContextMenu="return false;" class="right-img" src="images/gallery/model_preview_thumb.png"></button>
 					</div>
 					
 				</div>
@@ -295,7 +299,7 @@
 			</div>
 		</div>
 	</div>
-
+		<!--Full image Storage-->
 	<div class="storage">
 		<div class="metal" id="modal1">
 			<div class="header">
@@ -347,22 +351,22 @@
 				<button class="bton close-modal">&times;</button>
 			  </div>
 			<div class="body">
-				<img onContextMenu="return false;" src="images/gallery/map_prev_full.png">
+				<img onContextMenu="return false;" src="images/gallery/mob_full.png">
 			</div>
 			<div class="header">
-				<div class="tile">Model preview will be available soon!</div>
+				<div class="tile">Some pets I've made.</div>
 			</div>
 		  </div>
 
-		  <div class="metal" id="modal6">
+		  <div class="metal" id="modal6"> 
 			<div class="header">
 				<button class="bton close-modal">&times;</button>
 			  </div>
 			<div class="body">
-				<img onContextMenu="return false;" src="images/gallery/model_preview_full.png">
+				<img onContextMenu="return false;" src="images/gallery/nether_set_full.png">
 			</div>
 			<div class="header">
-				<div class="tile">Model preview will be available soon!</div>
+				<div class="tile">Nether Set</div>
 			</div>
 		  </div>
 		<div class="metal" id="modal7">
@@ -370,10 +374,10 @@
 				<button class="bton close-modal">&times;</button>
 			  </div>
 			<div class="body">
-				<img onContextMenu="return false;" src="images/gallery/model_preview_full.png">
+				<img onContextMenu="return false;" src="images/gallery/swords_full.png">
 			</div>
 			<div class="header">
-				<div onContextMenu="return false;" class="tile">Model preview will be available soon!</div>
+				<div onContextMenu="return false;" class="tile">Bunch of sword designs.</div>
 			</div>
 		  </div>
 
@@ -393,10 +397,10 @@
 				<button class="bton close-modal">&times;</button>
 			  </div>
 			<div class="body">
-				<img onContextMenu="return false;" src="images/gallery/map_prev_full.png">
+				<img onContextMenu="return false;" src="images/gallery/g5_full.png">
 			</div>
 			<div class="header">
-				<div class="tile">Map previews will be available soon!</div>
+				<div class="tile">Some achievement icons</div>
 			</div>
 		  </div>
 
@@ -405,10 +409,10 @@
 			  <button class="bton close-modal">&times;</button>
 			</div>
 			<div class="body">
-				<img onContextMenu="return false;" src="images/gallery/map_prev_full.png">
+				<img onContextMenu="return false;" src="images/gallery/g6_full.png">
 			</div>
 			<div class="header">
-				<div class="tile">Map previews will be available soon!</div>
+				<div class="tile">Style for chat NPC characters</div> 	
 			</div>
 		  </div>
 		  
@@ -441,10 +445,10 @@
 			  <button class="bton close-modal">&times;</button>
 			</div>
 			<div class="body">
-				<img onContextMenu="return false;" src="images/gallery/map_prev_full.png">
+				<img onContextMenu="return false;" src="images/gallery/g7_full.png">
 			</div>
 			<div class="header">
-				<div class="tile">Map previews will be available soon!</div>
+				<div class="tile">Some large and basic chat prefix</div>
 			</div>
 		  </div>
 
@@ -453,10 +457,10 @@
 			  <button class="bton close-modal">&times;</button>
 			</div>
 			<div class="body">
-				<img onContextMenu="return false;" src="images/gallery/map_prev_full.png">
+				<img onContextMenu="return false;" src="images/gallery/g8_full.png">
 			</div>
 			<div class="header">
-				<div class="tile">Map previews will be available soon!</div>
+				<div class="tile">Scene / character remake for a RPG game</div>
 			</div>
 		  </div>
 
@@ -465,7 +469,7 @@
 			  <button class="bton close-modal">&times;</button>
 			</div>
 			<div class="body">
-				<img onContextMenu="return false;" src="images/gallery/map_prev_full.png">
+				<img onContextMenu="return false;" src="images/gallery/map_prev_full.png">	
 			</div>
 			<div class="header">
 				<div class="tile">Map previews will be available soon!</div>
@@ -498,7 +502,7 @@
 					<div class="left-item">
 						<h2>Raeden</h2>
 						<h3>Pixel Artist & Model Designer</h3>
-						<h3>Last Update: January 2023</h3>
+						<h3>Last Update: December 2023</h3>
 					</div>
 				</div>
 				<div class="footer-right">
@@ -553,6 +557,8 @@
 
 
 
+
+		
 	<!--jQuery-->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	
